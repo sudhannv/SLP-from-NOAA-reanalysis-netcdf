@@ -2,15 +2,13 @@
 """
 Created on Sat Nov 27 17:02:17 2021
 
-@author: Sidharth-Sasi
+
 """
 
 from netCDF4 import Dataset
 import numpy as np
-# import cartopy.crs as ccrs
 import matplotlib.pyplot as plt
 from mpl_toolkits.basemap import Basemap
-# from matplotlib.cbook import dedent
 import warnings
 warnings.filterwarnings('ignore')
 ncfile='slp.1970.nc'
