@@ -28,3 +28,9 @@ mp = Basemap(projection = 'merc',
              urcrnrlon = 357.5,
              urcrnrlat = -90,
              resolution= 'i')
+
+# To see the shape of the variable SLP, in Console (Spyder) we can type the following commands
+# slp.shape
+#lat.shape
+#lon.shape
+#time.shape
